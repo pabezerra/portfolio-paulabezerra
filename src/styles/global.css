@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg: #f6eee8;
+  --surface: #fffaf6;
+  --card: #ffffff;
+
+  --title: #221f1c;
+  --text: #554a44;
+  --muted: #8a7a71;
+
+  --primary: #c56f4f;
+  --primary-dark: #9f4f36;
+  --primary-soft: #f0d5c9;
+
+  --tech: #26312d;
+  --tech-soft: #dfe8e2;
+
+  --border: #e3d2c8;
+
+  --font-title: "Inter", sans-serif;
+  --font-text: "Inter", sans-serif;
+
+  --container: 1120px;
+}
+
+body.dark {
+  --bg: #1f1815;
+  --surface: #2b221e;
+  --card: #332721;
+
+  --title: #fff7f1;
+  --text: #e8d7cd;
+  --muted: #c6aa9a;
+
+  --primary: #d47b5c;
+  --primary-dark: #f0a083;
+  --primary-soft: #4a3028;
+
+  --tech: #fff7f1;
+  --tech-soft: #3a2b26;
+
+  --border: #4a372f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 110px;
+}
+
+body {
+  font-family: var(--font-text);
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--primary);
+  color: #fff;
+}
+
+.container {
+  width: min(90%, var(--container));
+  margin: 0 auto;
+}
+
+.section {
+  padding: 96px 0;
+}
+
+.section-title {
+  font-family: var(--font-title);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  color: var(--title);
+  line-height: 1.1;
+}
+
+.section-subtitle {
+  max-width: 640px;
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+a,
+button,
+.project-card,
+.skills__card,
+.contact__card {
+  transition: 0.25s ease;
+}
+
+/* DARK MODE AJUSTES */
+
+body.dark .header {
+  background: rgba(31, 24, 21, 0.96);
+}
+
+body.dark .hero::before {
+  background:
+    radial-gradient(circle at top right, rgba(212, 123, 92, 0.16), transparent 40%),
+    linear-gradient(180deg, #1f1815 0%, #241b18 100%);
+}
+
+body.dark .projects,
+body.dark .skills,
+body.dark .contact,
+body.dark .footer {
+  background: var(--bg);
+}
+
+body.dark .hero__card,
+body.dark .hero__highlights,
+body.dark .project-card,
+body.dark .skills__card,
+body.dark .contact__card {
+  background: var(--card);
+  border-color: var(--border);
+}
+
+body.dark .project-card__details div,
+body.dark .project-card__links a,
+body.dark .skills__list span {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+body.dark .hero__card strong,
+body.dark .hero__highlights strong,
+body.dark .project-card h3,
+body.dark .project-card__details strong,
+body.dark .skills__card h3,
+body.dark .contact__title,
+body.dark .footer h3,
+body.dark .header__brand span,
+body.dark .header__nav a {
+  color: var(--title);
+}
+
+body.dark .hero__card span,
+body.dark .hero__highlights span,
+body.dark .project-card p,
+body.dark .project-card__details span,
+body.dark .skills__list span,
+body.dark .contact__description,
+body.dark .footer p,
+body.dark .footer span,
+body.dark .header__brand small,
+body.dark .header__brand em {
+  color: var(--text);
+}
+
+body.dark .hero__social a,
+body.dark .project-card__links a {
+  color: var(--title);
+}
+
+body.dark .project-card__links a:first-child {
+  background: var(--primary);
+  color: #1f1815;
+  border-color: var(--primary);
+}
+
+body.dark .header__theme {
+  background: var(--surface);
+  border-color: var(--border);
+  color: var(--primary-dark);
+}
+
+body.dark .header__menu {
+  background: var(--primary);
+  color: #1f1815;
+}
+
+body.dark .btn-primary {
+  color: #1f1815;
+}
+
+body.dark .btn-secondary {
+  color: var(--primary-dark);
+}
+
+body.dark .hero__image {
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 72px 0;
+  }
+
+  .container {
+    width: min(92%, var(--container));
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 56px 0;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
