@@ -44,7 +44,7 @@
 
 .header__brand span {
   display: block;
-.header__button  color: var(--title);
+  color: var(--title);
   font-size: 1.15rem;
   font-weight: 900;
 }
