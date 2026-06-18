@@ -1,6 +1,7 @@
 .footer {
-  padding: 50px 0;
+  padding: 36px 0;
   border-top: 1px solid var(--border);
+  background: var(--bg);
 }
 
 .footer__container {
@@ -9,15 +10,17 @@
 
 .footer h3 {
   color: var(--title);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: 1rem;
 }
 
 .footer p {
   color: var(--text);
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
 }
 
 .footer span {
-  color: var(--text-light);
-  font-size: 0.9rem;
+  color: var(--muted);
+  font-size: 0.82rem;
 }
