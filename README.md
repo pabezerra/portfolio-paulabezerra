@@ -1,16 +1,67 @@
-# React + Vite
+# Portfólio | Paula Bezerra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido para apresentar minha trajetória, habilidades e projetos como Desenvolvedora Front-End.
 
-Currently, two official plugins are available:
+## Sobre
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Sou Paula Bezerra, Desenvolvedora Front-End com foco em interfaces modernas, responsivas e bem estruturadas. Tenho formação Full Stack pela Mate Academy e curso Análise e Desenvolvimento de Sistemas pela Universidade Anhembi Morumbi.
 
-## React Compiler
+O objetivo deste portfólio é reunir meus principais projetos, tecnologias e formas de contato de maneira clara, elegante e profissional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Projetos em destaque
 
-## Expanding the ESLint configuration
+### Studio P Agenda
+Sistema web para gerenciamento de salão de beleza, com cadastro de clientes, serviços, profissionais e agendamentos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Tecnologias:** React, JavaScript, CSS e LocalStorage  
+**Deploy:** https://studio-p-agenda.vercel.app  
+**Repositório:** https://github.com/pabezerra/studio-p-agenda
+
+### Movie Finder
+Aplicação para busca de filmes com consumo de API, renderização dinâmica de resultados e interface responsiva.
+
+**Tecnologias:** React, JavaScript, API REST e CSS  
+**Deploy:** https://movie-finder-7lfo.vercel.app  
+**Repositório:** https://github.com/pabezerra/movie-finder
+
+### Studio P Concept
+Site institucional responsivo para apresentação de serviços, localização e canais de contato de um salão de beleza.
+
+**Tecnologias:** React, JavaScript, CSS e Responsividade  
+**Deploy:** https://studio-p-concept.vercel.app  
+**Repositório:** https://github.com/pabezerra/studio-p-concept
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- React
+- Vue.js
+- Angular
+- Redux
+- APIs REST
+- Git e GitHub
+- SQL
+- POO
+- Scrum
+- Figma
+- VS Code
+
+## Funcionalidades do portfólio
+
+- Layout responsivo
+- Dark mode
+- Animações com Framer Motion
+- Seção de projetos com imagens
+- Links para GitHub, LinkedIn, WhatsApp e currículo
+- SEO básico
+- Favicon personalizado
+
+## Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/pabezerra/portfolio-paulabezerra.git
